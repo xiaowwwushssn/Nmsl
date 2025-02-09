@@ -1,0 +1,115 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/Seven7-lua/Roblox/refs/heads/main/Librarys/Orion/Orion.lua')))()
+
+local Window = OrionLib:MakeWindow({Name = "SS传送", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+local Tab = Window:MakeTab({
+	Name = "Tab 1",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+OrionLib:MakeNotification({
+	Name = "🤣👉",
+	Content = "这种垃圾脚本你也倒卖，你属实是沙雕🤣👉🤡",
+	Image = "rbxassetid://4483345998",
+	Time = 8
+})
+Tab:AddButton({
+	Name = "传送绿谷召唤点",
+	Callback = function()
+      	local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+local location = CFrame.new(-7146.69140625, -32.02263259887695, 1295.1627197265625)
+local humanoid = game.Players.LocalPlayer.Character.Humanoid
+humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
+wait(0.1)
+pl.CFrame = location
+  	end    
+})Tab:AddButton({
+	Name = "传送仓库",
+	Callback = function()
+      	local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+local location = CFrame.new(-395.2467346191406, -31.753875732421875, 1818.8238525390625)
+local humanoid = game.Players.LocalPlayer.Character.Humanoid
+humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
+wait(0.1)
+pl.CFrame = location
+  	end    
+})Tab:AddButton({
+	Name = "圣诞活动兑换",
+	Callback = function()
+      	local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+local location = CFrame.new(-245.93112182617188, -32.37528991699219, 1505.2000732421875)
+local humanoid = game.Players.LocalPlayer.Character.Humanoid
+humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
+wait(0.1)
+pl.CFrame = location
+  	end    
+})Tab:AddButton({
+	Name = "罗兰BOSS任务NPC",
+	Callback = function()
+      	local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+local location = CFrame.new(-7404.908203125, -31.520952224731445, 1105.88720703125)
+local humanoid = game.Players.LocalPlayer.Character.Humanoid
+humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
+wait(0.1)
+pl.CFrame = location
+  	end    
+})Tab:AddButton({
+	Name = "樱花树公园",
+	Callback = function()
+      	local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+local location = CFrame.new(-509.58294677734375, -31.601213455200195, 1425.3238525390625)
+local humanoid = game.Players.LocalPlayer.Character.Humanoid
+humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
+wait(0.1)
+pl.CFrame = location
+  	end    
+})Tab:AddButton({
+	Name = "森林",
+	Callback = function()
+      	local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+local location = CFrame.new(-491.6846008300781, -32.64363098144531, 1258.0892333984375)
+local humanoid = game.Players.LocalPlayer.Character.Humanoid
+humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
+wait(0.1)
+pl.CFrame = location
+  	end    
+})Tab:AddButton({
+	Name = "尸魂界",
+	Callback = function()
+      	local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+local location = CFrame.new(-9334.6953125, 428.6468505859375, 1719.17626953125)
+local humanoid = game.Players.LocalPlayer.Character.Humanoid
+humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
+wait(0.1)
+pl.CFrame = location
+  	end    
+})Tab:AddButton({
+	Name = "出售物品NPC",
+	Callback = function()
+      	local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+local location = CFrame.new(-619.3626708984375, -32.308616638183594, 1919.698974609375)
+local humanoid = game.Players.LocalPlayer.Character.Humanoid
+humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
+wait(0.1)
+pl.CFrame = location
+  	end    
+})Tab:AddButton({
+	Name = "承太郎Boss出生点",
+	Callback = function()
+      	local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+local location = CFrame.new(-326.8779602050781, -33.01496887207031, 1339.958251953125)
+local humanoid = game.Players.LocalPlayer.Character.Humanoid
+humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
+wait(0.1)
+pl.CFrame = location
+  	end    
+})Tab:AddButton({
+	Name = "DIO召唤点",
+	Callback = function()
+      	local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+local location = CFrame.new(7472.24853515625, -426.68743896484375, -4018.07470703125)
+local humanoid = game.Players.LocalPlayer.Character.Humanoid
+humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
+wait(0.1)
+pl.CFrame = location
+  	end    
+})
